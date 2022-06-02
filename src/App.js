@@ -21,7 +21,8 @@ function App() {
 
   return (
     <div className='App'>
-      {/* <Child changeNumber={changeChildNumber} number={childNumber} /> "here" is being
+      {/* <Child changeNumber={changeChildNumber} number={childNumber} />{' '} */}
+      {/* "here" is being
       printed and to solve this we have to memeize the function */}
       <Child changeNumber={memoizedCallback} number={childNumber} />
       <button onClick={incrementLocal}>Click to increment local</button>
