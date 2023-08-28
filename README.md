@@ -1,3 +1,3 @@
-## useCallback---React
+## useCallback | React
 
 🌎 Website: https://usecallback.netlify.app/
